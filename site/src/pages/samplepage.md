@@ -1,9 +1,9 @@
 ---
 title: Sample page 
-subtitle: ""
+subtitle: "example subtitle"
 metaDescription: Sample 
-date: 2017-01-01T00:00:00.000Z
-permalink: /about/index.html
+date: 2022-10-14T00:00:00.000Z
+permalink: /sample/index.html
 eleventyNavigation:
   key: About
   order: 6
