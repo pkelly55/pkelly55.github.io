@@ -1,79 +1,108 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5702ba89-7242-490e-b04d-e4a691faced5/deploy-status)](https://app.netlify.com/sites/fernfolio/deploys)
+# Eleventy Soft UI Design
 
-# Fernfolio
-The super simple portfolio template built with [Eleventy](https://www.11ty.io/) and [Netlify CMS](https://www.netlifycms.org/)
+[Eleventy Soft UI](https://appseed.us/product/eleventy-soft-ui) is an Eleventy adaptation of **Soft UI Design System** (a user-friendly and beautiful design system based on Bootstrap 5), including a Blog system that uses Prismic CMS for content management. **Soft UI Design System** is built with over 70 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. All components can take variations in color, which you can easily modify using SASS files and classes.
 
-<img width="1280" alt="fernfolio screenshot" src="https://raw.githubusercontent.com/TylerMRoderick/fernfolio-11ty-template/master/fernfolio-preview.png">
+> Features:
 
-### <pre>🖥  [Demo](https://fernfolio.netlify.app/)</pre>
+- UI: [Soft UI Design System](https://bit.ly/3v6JYIe) crafted by **Creative-Tim**
+- **Prismic CMS** for blog posts
+- CSS Pipeline (Sass, CleanCSS)
+- JS Bundling (Webpack)
+- SVG Icon Sprite Generation
+- Critical CSS, HTML Minification
 
-## 🤔 What is this?
-An [Eleventy](https://www.11ty.io/) theme designed to simplify the process of deploying a beautiful portfolio and blog. Launch your site in minutes!
+<br />
 
-Based on the [eleventy-netlify-boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate), but modified to perfectly fit the needs of a modern technical porfolio.
+> Links
 
-## ✨ Features
-* Built in support for [Netlify CMS](https://www.netlifycms.org/) with editor previews
-* Customizable blog and project pages with tag support
-* Working contact form powered by [Netlify Forms](https://www.netlify.com/products/forms/)
-* Super fast page render and high lighthouse scores
-* Uses Markdown for content files and Nunjucks for layouts
-* 100% Javascript framework free
-* Continuous Deployment workflow via [Netlify](https://www.netlify.com/)
-* Base styles powered by [Sakura](https://github.com/oxalorg/sakura) classless css framework
-* Vanilla css for custom styles (keep it simple)
+- [Eleventy Soft UI](https://appseed.us/product/eleventy-soft-ui) - product page
+- [Eleventy Soft UI](https://eleventy-soft-ui.appseed-srv1.com/) - LIVE Demo
 
+<br />
 
-## 🚀 Quick Start
+![Eleventy Soft UI Design - Open-source SSG starter provided by AppSeed in 11ty on top of Soft UI Design.](https://user-images.githubusercontent.com/51070104/128602712-4b38f18d-2154-4899-a796-aec0f7435329.png)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/TylerMRoderick/fernfolio-11ty-template&stack=cms)
+<br />
 
-### 1. Click the "Deploy to Netlify" button above
-This will clone this repo to your github account and will deploy a copy of the demo website to your Netlify
-account (you can create an account during this process if you don't have one)
+## Compile from Sources
 
-### 2. Setup authentication
+> **Step #1** - Clone this repository
 
-After deploying this project, Netlify Identity will add you as a CMS user and
-will email you an invite. Hit the "Accept the invite" link and this should take you to the deployed site. From there, you can add your password to finish user setup.
+```bash
+$ git clone https://github.com/app-generator/eleventy-soft-ui-design.git
+$ cd eleventy-soft-ui-design 
+```
 
-### 3. Edit some content
-Now that you are added as a CMS user, add `/admin` to the end of your site url, and log in using your new credentials. You should now see the content editor interface. Now you can start editing content! Any changes to your new repo will auto-deploy a new version to netflify. Cool huh?
+<br />
 
-### 4. Setup local environment
-- Clone the repo locally `git clone https://github.com/TylerMRoderick/fernfolio-11ty-template.git`
-- Navigate to root folder `cd your-site`
-- Install the goods `npm install`
-- Run it `npm start`
-- You should now be able to see everything running on localhost:8080
-- Add some changes (view [theme customizations](https://fernfolio.netlify.app/posts/theme-customizations/) for some options) 
-- Push your changes to github and an auto-deploy should be triggered
+> **Step #2** - Install modules via NPM or Yarn
 
-## 💻 Development Scripts
+```bash
+$ npm i
+// OR
+$ yarn
+```
 
-**`npm start`**
+<br />
 
-> Run 11ty with hot reload at localhost:8080
+> **Step #3** - Configure [Prismic](http://prismic.io/) API Node
 
-**`npm run build`**
+Rename `.env.sample` to `.env` and specify the `PRISMIC_REPOSITORY_NAME`. In case you are not familiar with `Prismic`, feel free to use the `DEMO API` provided by AppSeed: `https://eleventy-soft-ui-design.prismic.io/api/v2`
 
-> Generate minified production build
+```env
+PRISMIC_REPOSITORY_NAME=YOUR_PRISMIC_API_URL
+```
 
-Use this as the "Publish command" if needed by hosting such as Netlify.
+<br />
 
-Checkout the Eleventy [Command Line Usage docs](https://www.11ty.dev/docs/usage/) for more options 
+> **Step #4** - Start project in development mode
 
+```bash
+$ yarn start
+```
 
-## 🎩 Common issues
+Once the project is compiled and the content is pulled from `Prismic`, the project can be visited in the browser: `http://localhost:8080`.
 
-If you change the repo that was created at deploy time from public to private, you'll need to regenerate your token,
-as the token generated using the deploy to Netlify button can only access public repositories. To
-regenerate your token, head to "Settings" in your Netlify site dashboard, go to the "Identity"
-section, then scroll to "Services" where you'll see an "Edit settings" button. Click that and you'll
-see a text link to "Generate access token in GitHub".
+<br />
 
-If you need any help with setting up Netlify CMS, you can reach out to the Netlify team in the [Netlify CMS Gitter](https://gitter.im/netlify/netlifycms).
+## Codebase structure
 
-## Bug reports, feature requests, etc
+```
+eleventy-soft-ui-design
+    ├── src/
+    │ ├── assets/
+    │ │ ├── css/
+    │ │ ├── favicon/
+    │ │ ├── fonts/
+    │ │ ├── img/
+    │ │ ├── js/
+    │ │ ├── scripts/modules/app.js
+    │ │ └── scss/app.scss
+    │ ├── data/
+    │ │ ├── app.json
+    │ │ ├── meta.json
+    │ │ └── prismicData.js
+    │ ├── includes/
+    │ ├── layouts/
+    │ ├── pages/
+    │ ├── sections/
+    │ ├── 404.njk
+    │ ├── feed.njk
+    │ ├── index.njk
+    │ ├── blog.njk
+    │ ├── presentation.njk
+    │ ├── robots.njk
+    │ └── sitemap.njk
+		├── utils/
+    ├── .eleventy.js
+    ├── .env.sample
+    ├── .gitignore
+    ├── .prettierrc
+    ├──  netlify.toml
+    └──  package.js
+```
 
-This is an ongoing project and I welcome contributions and suggestions! Feel free to submit a PR or issue.
+<br />
+
+---
+[Eleventy Soft UI](https://appseed.us/product/eleventy-soft-ui) - provided by AppSeed [App Generator](https://appseed.us)
