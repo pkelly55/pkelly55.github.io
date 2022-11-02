@@ -1,19 +1,19 @@
 :root {
   /* Brand Colors */
   --color-primary: #222;
-  --color-secondary: #2f5bc2;
+  --color-secondary: #c44800;
 
   /* Background Colors */
-  --color-bg: #fff;
-  --color-bg-secondary: #f7f7f7;
-  --color-bg-accent: rgb(174, 182, 225);
-  --color-bg-hover: #f3f4f6cc;
+  --color-bg: #046A38;
+  --color-bg-secondary: #000000;
+  --color-bg-accent: rgb(255, 255, 255);
+  --color-bg-hover: #ffffffcc;
 
   /* Text and Border Colors */
-  --color-text: #222;
-  --color-text-alt: #fff;
+  --color-text: rgb(255, 255, 255);
+  --color-text-alt: rgb(208, 230, 18);
   --color-text-gray: #6b7280;
-  --color-border: rgb(0 0 0 / 6%);
+  --color-border: rgba(0, 247, 255, 0.06);
 
   /* Status Colors */
   --color-danger: #e03e3e;
@@ -27,6 +27,6 @@
   --site-width: 850px;
 
   /* Other */
-  --border-radius: 12px;
-  --border-radius-sm: 5px;
+  --border-radius: 15px;
+  --border-radius-sm: 8px;
 }
