@@ -1,18 +1,13 @@
 ---
-layout: blog.njk
-title: Skills 
-date: 2017-01-01
-pagination:
-  data: collections.post
-  size: 20
-permalink: "blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html"
-metaDescription: A sample Blog page listing various posts.
-subtitle: Skills 
+title: Skills
+subtitle: 
+date: 2021-03-15T06:33:06.713Z
+permalink: /skills/index.html
 eleventyNavigation:
-  key: Skills 
   order: 2
+  key: Skills 
 ---
-Skills: 
+
 
 Technical writing
 Social media management
