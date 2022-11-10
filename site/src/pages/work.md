@@ -1,7 +1,6 @@
 ---
-title: Work
-subtitle: This is where you can describe your skills and talk about projects
-  you've worked on
+title: Experience
+subtitle: Previous and Current 
 date: 2021-03-15T06:33:06.713Z
 permalink: /work/index.html
 eleventyNavigation:
@@ -9,27 +8,26 @@ eleventyNavigation:
   key: Work
 ---
 ### 👩‍💻 Experience:
+#### Lowes
 
-#### Tesla
+**Associate** *(May 2022 - August 2022)*
 
-**Senior Software Engineer** *(2019 - Current)*
+* Complete sales transactions and invoices by using Lowes' Genesis software
+* Conducted calls with customers to find the right products or services. 
+* Build relationships with customers who were frequent buyers. 
+* Organized plan to fix stocking issue with Pit Boss Grills.
 
-* Collaborated with Elon Musk on 80,000 unique projects
-* Invented the Cyber Truck
-
-#### Microsoft
-
-**Software Engineer** *(2014 - 2019)*
-
-* Maintained legacy Internet Explorer for 5 long years
 
 - - -
 
 ### 📚 Education:
 
-#### Harvard
+#### Allegheny College 
 
-**PhD Astronomy** *(2014 - 2015)*
+**Degree Seeking** *(2020 - 2024)*
 
-* Graduated top of my class when I was only 12 years old
-* Won Nobel Prize
+* Relavent courses: Programming Languages, Discrete Structure, Data Abstraction, Software Engineering 
+
+
+* 3.0 GPA 
+
