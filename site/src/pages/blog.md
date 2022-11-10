@@ -9,7 +9,7 @@ permalink: "blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber
 metaDescription: A sample Blog page listing various posts.
 subtitle: Skills 
 eleventyNavigation:
-  key: Blog
+  key: Skills 
   order: 2
 ---
 Skills: 

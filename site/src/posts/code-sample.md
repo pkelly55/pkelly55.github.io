@@ -1,27 +1,37 @@
 ---
-title: This post contains a code sample
+title: Code from Blackjack
 metaDescription: Add code samples to your markdown files
 date: 2019-01-01T00:00:00.000Z
-summary: Add code samples to your markdown files
+summary: Summary of Blackjack
 tags:
-  - tech
-  - environment
-  - politics
-  - sport
+  - blackjack
+  - python
+ 
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## Deck code snippet
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+Creating the deck to pop a single card.
 
-## Section Header
+```python
+class Deck:
+    
+    def __init__(self):
+        self.deck = []  # start with an empty list#
+        for suit in suits:
+            for rank in ranks:
+                self.deck.append(Card(suit, rank))
+    
+    def __str__(self):
+        deck_comp = '' 
+        for card in self.deck:
+            deck_comp += '\n' + card.__str__() #add each card objects string
+        return 'The deck has' + deck_comp
+            
+    def shuffle(self):
+        random.shuffle(self.deck)
+        
+    def deal(self):
+        single_card = self.deck.pop()
+        return single_card
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-
-``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
 ```
-Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.

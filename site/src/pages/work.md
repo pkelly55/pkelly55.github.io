@@ -5,14 +5,14 @@ date: 2021-03-15T06:33:06.713Z
 permalink: /work/index.html
 eleventyNavigation:
   order: 3
-  key: Work
+  key: Experience
 ---
 ### 👩‍💻 Experience:
 #### Lowes
 
 **Associate** *(May 2022 - August 2022)*
 
-* Complete sales transactions and invoices by using Lowes' Genesis software
+* Complete sales transactions and invoices by using Lowes' Genesis software.
 * Conducted calls with customers to find the right products or services. 
 * Build relationships with customers who were frequent buyers. 
 * Organized plan to fix stocking issue with Pit Boss Grills.
