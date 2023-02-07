@@ -12,10 +12,18 @@ eleventyNavigation:
 Technical writing
 Social media management
 Coding
-Network configuration knowledge
-Database management knowledge
+Programming language knowledge
+Data analysis
+Data visualization
+Game Development
+Graphic Design
+Video Editing
 Photoshop
 
 
-Computer: Mac & PC Proficient; G Suite: Gmail, Docs, Sheets, Slides; Microsoft Office: Word, Excel, PowerPoint; Adobe Creative Suite
+Computer: Mac & PC Proficient; G Suite: Gmail, Docs, Sheets, Slides; Microsoft Office: Word, Excel, PowerPoint; Adobe Creative Suite; CAD: AutoCAD, Inventor 
+
+Languages: Python, Java, R, C, C#, C++, assembly,  
+
+![logo](/assets/img/PKlogo.jpeg "PKlogo")
 

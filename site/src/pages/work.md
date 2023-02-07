@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 3
   key: Experience
 ---
-### 👩‍💻 Experience:
+### 👨‍💻 Experience:
 #### Lowes
 
 **Associate** *(May 2022 - August 2022)*
@@ -26,7 +26,7 @@ eleventyNavigation:
 
 **Degree Seeking** *(2020 - 2024)*
 
-* Relavent courses: Programming Languages, Discrete Structure, Data Abstraction, Software Engineering 
+* Relavent courses: Programming Languages, Discrete Structure, Data Abstraction, Software Engineering, Data Analytics
 
 
 * 3.0 GPA 
