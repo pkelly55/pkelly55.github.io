@@ -1,22 +1,23 @@
 :root {
-  /* Brand Colors */
+  /* Brand Colors - Professional Blue & Modern Accent */
   --color-primary: rgb(255, 255, 255);
-  --color-secondary: #edf100;
+  --color-secondary: #3b82f6; /* Modern blue accent */
 
-  /* Background Colors */
-  --color-bg: #046A38;
-  --color-bg-secondary: #000000;
+  /* Background Colors - Clean & Professional */
+  --color-bg: #0f172a; /* Deep navy for sophistication */
+  --color-bg-secondary: #1e293b; /* Slightly lighter navy */
   --color-bg-accent: rgb(255, 255, 255);
-  --color-bg-hover: #ffffffcc;
+  --color-bg-hover: rgba(59, 130, 246, 0.1); /* Subtle blue hover */
 
   /* Text and Border Colors */
   --color-text: rgb(255, 255, 255);
-  --color-text-alt: rgb(119, 128, 92);
-  --color-text-gray: #6b7280;
-  --color-border: rgba(0, 247, 255, 0.06);
+  --color-text-alt: #94a3b8; /* Softer gray for secondary text */
+  --color-text-gray: #64748b;
+  --color-border: rgba(148, 163, 184, 0.1);
 
   /* Status Colors */
-  --color-danger: #000000;
+  --color-danger: #ef4444;
+  --color-success: #10b981;
 
   /* Typography */
   --font-family-base: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto,
@@ -27,6 +28,6 @@
   --site-width: 850px;
 
   /* Other */
-  --border-radius: 15px;
-  --border-radius-sm: 8px;
+  --border-radius: 12px;
+  --border-radius-sm: 6px;
 }

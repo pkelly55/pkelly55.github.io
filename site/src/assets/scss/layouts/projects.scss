@@ -16,26 +16,45 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 15px 25px;
+  padding: 25px 30px;
   border: 1px solid var(--color-border);
-  border-radius: 6px;
-  background-color: var(--color-bg);
+  border-radius: var(--border-radius);
+  background: linear-gradient(135deg, var(--color-bg-secondary) 0%, rgba(59, 130, 246, 0.05) 100%);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.15);
+  border-color: var(--color-secondary);
 }
 
 .project-card__title {
   color: var(--color-text);
+  margin-top: 0.5rem;
+  font-weight: 600;
 }
 
 .project-card__tag {
-  background-color: var(--color-secondary);
-  color: var(--color-text-alt);
+  background-color: rgba(59, 130, 246, 0.2);
+  color: var(--color-secondary);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  transition: all 0.2s ease;
 }
 
 .project-card__tag:hover {
-  color: var(--color-text-alt);
-  filter: brightness(90%);
+  background-color: var(--color-secondary);
+  color: var(--color-bg);
+  transform: scale(1.05);
 }
 
 .project-card__emoji {
   margin-right: 8px;
+  font-size: 1.5em;
 }
