@@ -27,9 +27,8 @@ jobs:
           npm install
           npm run build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1.0.4
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: site
           path: ./site/_site
 
   # Deployment job
@@ -42,4 +41,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
